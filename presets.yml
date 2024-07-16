@@ -1,0 +1,8 @@
+- presetId: 12a74c2c-7f71-491f-9519-38e27f8a8295
+  title: All-Purpose Prompt
+  key: nate 
+  model: anthropic/claude-3.5-sonnet:beta
+  endpoint: OpenRouter
+  endpointType: custom
+  defaultPreset: true
+  promptPrefix: ./prompt.md.j2
