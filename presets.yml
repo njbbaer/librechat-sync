@@ -1,6 +1,17 @@
 - presetId: 12a74c2c-7f71-491f-9519-38e27f8a8295
   title: All-Purpose Prompt
   key: nate 
+  user: 65ae0e84f86b072599cb79fe
+  model: anthropic/claude-3.5-sonnet:beta
+  endpoint: OpenRouter
+  endpointType: custom
+  defaultPreset: true
+  promptPrefix: ./prompt.md.j2
+  
+- presetId: ee2b0fe2-c10d-4385-b35b-952750715f20
+  title: All-Purpose Prompt
+  key: jess 
+  user: 661758f15a3347ea0d611c69
   model: anthropic/claude-3.5-sonnet:beta
   endpoint: OpenRouter
   endpointType: custom
