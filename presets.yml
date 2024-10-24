@@ -6,7 +6,7 @@
   endpoint: OpenRouter
   endpointType: custom
   defaultPreset: true
-  promptPrefix: ./prompts/prompt.md.j2
+  promptPrefix: ./prompts/all-purpose-prompt.md.j2
   
 - presetId: ee2b0fe2-c10d-4385-b35b-952750715f20
   title: All-Purpose Prompt
@@ -16,7 +16,7 @@
   endpoint: OpenRouter
   endpointType: custom
   defaultPreset: true
-  promptPrefix: ./prompts/prompt.md.j2
+  promptPrefix: ./prompts/all-purpose-prompt.md.j2
 
 # - presetId: 91128260-7fe0-484d-af77-89cbc08f8f31
 #   title: Test Prompt v1
