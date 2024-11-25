@@ -21,9 +21,11 @@ def get_mongo_client():
 
 
 def update_preset(client, preset):
-    client.LibreChat.presets.update_one(
+    result = client.LibreChat.presets.update_one(
         {"presetId": preset["presetId"]}, {"$set": preset}
     )
+    if result.matched_count == 0:
+        raise ValueError(f"Preset with ID {preset['presetId']} not found")
 
 
 def apply_preset(preset):
