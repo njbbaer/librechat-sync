@@ -1,5 +1,10 @@
-- presetId: 12a74c2c-7f71-491f-9519-38e27f8a8295
-  title: All-Purpose Prompt
+# Nate  65ae0e84f86b072599cb79fe
+# Jess  661758f15a3347ea0d611c69
+# Dad   66b94eae16c342b702fe37e5
+# Joey  65b909ae34ea18d6ebe2b27f
+
+- title: All-Purpose Prompt (Nate)
+  presetId: 12a74c2c-7f71-491f-9519-38e27f8a8295
   key: nate 
   user: 65ae0e84f86b072599cb79fe
   model: anthropic/claude-3.5-sonnet:beta
@@ -8,8 +13,8 @@
   defaultPreset: true
   promptPrefix: ./prompts/all-purpose-prompt.md.j2
   
-- presetId: ee2b0fe2-c10d-4385-b35b-952750715f20
-  title: All-Purpose Prompt
+- title: All-Purpose Prompt (Jess)
+  presetId: ee2b0fe2-c10d-4385-b35b-952750715f20
   key: jess 
   user: 661758f15a3347ea0d611c69
   model: anthropic/claude-3.5-sonnet:beta
@@ -18,12 +23,30 @@
   defaultPreset: true
   promptPrefix: ./prompts/all-purpose-prompt.md.j2
 
-# - presetId: 91128260-7fe0-484d-af77-89cbc08f8f31
-#   title: Test Prompt v1
-#   key: nate 
-#   user: 65ae0e84f86b072599cb79fe
+# - title: All-Purpose Prompt (Joey)
+#   presetId: 91128260-7fe0-484d-af77-89cbc08f8f31
+#   key: joey 
+#   user: 65b909ae34ea18d6ebe2b27f
 #   model: anthropic/claude-3.5-sonnet:beta
 #   endpoint: OpenRouter
 #   endpointType: custom
 #   defaultPreset: false
-#   promptPrefix: ./prompts/prompt.md.j2
+#   promptPrefix: ./prompts/all-purpose-prompt.md.j2
+
+- title: Prompt Engineer
+  presetId: 75df8e3f-14b3-4152-a0bf-a04c7fc5ff5f
+  user: 65ae0e84f86b072599cb79fe
+  model: anthropic/claude-3.5-sonnet:beta
+  endpoint: OpenRouter
+  endpointType: custom
+  defaultPreset: false
+  promptPrefix: ./prompts/prompt-engineer.md.j2
+
+- title: Personal Trainer
+  presetId: e15a6070-f592-42af-9e18-07eda0b05186
+  user: 65ae0e84f86b072599cb79fe
+  model: anthropic/claude-3.5-sonnet:beta
+  endpoint: OpenRouter
+  endpointType: custom
+  defaultPreset: false
+  promptPrefix: ./prompts/personal-trainer.md.j2
