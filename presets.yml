@@ -50,3 +50,12 @@
   endpointType: custom
   defaultPreset: false
   promptPrefix: ./prompts/personal-trainer.md.j2
+
+- title: Biblically Accurate God
+  presetId: 20d6e67b-28d7-46ad-93bf-e9744b955f19
+  user: 661758f15a3347ea0d611c69
+  model: anthropic/claude-3.5-sonnet:beta
+  endpoint: OpenRouter
+  endpointType: custom
+  defaultPreset: false
+  promptPrefix: ./prompts/old-testament-god.md.j2
